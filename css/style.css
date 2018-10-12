@@ -96,3 +96,42 @@ nav div a {
   text-align: center;
   padding-top: 20px;
 }
+
+footer {
+  height: 200px;
+  width: 100%;
+  background: #333333;
+}
+
+.socials {
+  list-style: none;
+  font-size: 55px;
+  padding-top: 65px;
+  padding-left: 290px;
+}
+
+.socials li {
+  float: left;
+  margin-right: 40px;
+}
+
+.socials li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.facebook a:hover {
+  color: #3b5998;
+}
+
+.instagram a:hover {
+  color: #f46f30;
+}
+
+.linkedin a:hover {
+  color: #007bb5;
+}
+
+.github a:hover {
+  color: #000;
+}
