@@ -59,3 +59,40 @@ nav div a {
   left: 450px;
 }
 
+.things {
+  height: 100vh;
+}
+
+.title { 
+  font-size: 40px;
+  text-align: center;
+  font-style: oblique;
+  padding-top: 60px;
+}
+
+.things-list {
+  list-style: none;
+  margin-top: 110px;
+  margin-left: 50px;
+}
+
+.things-list li{
+  float: left;
+  margin-right: 150px;
+}
+
+.things-list li img{
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.things-list li:last-child {
+  margin-right: 0;
+}
+
+.things-list li h3 {
+  font-size: 28px;
+  text-align: center;
+  padding-top: 20px;
+}
