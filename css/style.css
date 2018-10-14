@@ -70,28 +70,28 @@ nav div a {
   padding-top: 60px;
 }
 
-.thingsllist {
+.things_list {
   list-style: none;
   margin-top: 110px;
   margin-left: 50px;
 }
 
-.thingsllist li{
+.things_list li{
   float: left;
   margin-right: 150px;
 }
 
-.thingsllist li img{
+.things_list li img{
   height: 180px;
   width: 180px;
   border-radius: 50%;
 }
 
-.thingsllist li:last-child {
+.things_list li:last-child {
   margin-right: 0;
 }
 
-.thingsslist li h3 {
+.things_list li h3 {
   font-size: 28px;
   text-align: center;
   padding-top: 20px;
