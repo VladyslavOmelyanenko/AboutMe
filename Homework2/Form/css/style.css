@@ -2,12 +2,12 @@ h1 {
   margin-left: 120px;
 }
 
-h3 {
-  margin-left: 40px;
-}
-
 input {
   margin: 15px 0 0 20px;
+}
+ul {
+  list-style: none;
+  margin-left: -20px;
 }
 
 #private-email {
@@ -54,4 +54,18 @@ input {
 .btn {
   position: relative;
   left: 40%;
+}
+
+fieldset:nth-child(2) {
+  margin-top: 20px;
+}
+
+label[for='devexp'], label[for="skills"] {
+  position: relative;
+  bottom: -15px;
+}
+
+
+ul li input {
+  margin-right: 15px;
 }
