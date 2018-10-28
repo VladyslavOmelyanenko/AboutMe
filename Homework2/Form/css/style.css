@@ -1,0 +1,71 @@
+h1 {
+  margin-left: 120px;
+}
+
+input {
+  margin: 15px 0 0 20px;
+}
+ul {
+  list-style: none;
+  margin-left: -20px;
+}
+
+#private-email {
+  margin-right: 20px;
+}
+
+.removing {
+  width: 310px;
+  margin-top: 10px;
+  margin-left: 53px;
+}
+
+#study-desiring {
+  position: relative;
+  bottom: -7px;
+  right: -5px;
+  width: 200px;
+}
+
+.years {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#devxp {
+  position: relative;
+  bottom: -10px;
+}
+
+.dexexp {
+  margin-left: 20px;
+}
+
+#country {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#skills {
+  position: relative;
+  bottom: -10px;
+}
+
+.btn {
+  position: relative;
+  left: 40%;
+}
+
+fieldset:nth-child(2) {
+  margin-top: 20px;
+}
+
+label[for='devexp'], label[for="skills"] {
+  position: relative;
+  bottom: -15px;
+}
+
+
+ul li input {
+  margin-right: 15px;
+}
