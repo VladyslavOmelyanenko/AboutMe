@@ -1,0 +1,82 @@
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 980px;
+}
+
+header {
+    height: 100vh;
+}
+
+nav{
+    height: 75px;
+    background: linear-gradient(to left ,#bf1e2e, #f1592a);
+}
+
+nav .main-menu, .logo, .language{
+    float: left;
+}
+
+nav .main-menu{
+    display: flex;
+    margin-left: 50px;
+}
+
+nav .main-menu li {
+    font-size: 12px;
+    margin-top: 31.5px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+nav .main-menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 31.5px 10px 30.5px 10px;
+}
+
+nav .main-menu li a:hover{
+    background: #fff;
+    color: #000;
+}
+
+.dropbtn {
+    background: transparent;
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: transparent;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display:block;
+}
