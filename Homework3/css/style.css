@@ -8,34 +8,34 @@ header {
     height: 100vh;
 }
 
-nav{
+.navbar {
     height: 75px;
     background: linear-gradient(to left ,#bf1e2e, #f1592a);
 }
 
-nav .main-menu, .logo, .language{
+.navbar .main-menu, .logo, .language{
     float: left;
 }
 
-nav .main-menu{
+.navbar .main-menu{
     display: flex;
     margin-left: 50px;
 }
 
-nav .main-menu li {
+.navbar .main-menu li {
     font-size: 12px;
     margin-top: 31.5px;
     text-transform: uppercase;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
-nav .main-menu li a{
+.navbar .main-menu li a{
     text-decoration: none;
     color: #fff;
     padding: 31.5px 10px 30.5px 10px;
 }
 
-nav .main-menu li a:hover{
+.navbar .main-menu li a:hover{
     background: #fff;
     color: #000;
 }
@@ -80,3 +80,217 @@ nav .main-menu li a:hover{
 .show {
     display:block;
 }
+
+.dropdown {
+    margin-top: 24px;
+    margin-left: 40px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.dropbtn {
+    margin-left: -5px;
+}
+
+.side-menu {
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: 18px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.side-menu ul li {
+    margin-bottom: 12px;
+}
+
+.side-menu ul li a {
+    color: #363a3b;
+    text-decoration: none;
+}
+
+.side-menu ul li a i {
+    margin-right: 12px;
+}
+
+.side-menu ul li a:hover {
+    color: #df4a2b;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 100;
+    color: #e14a2b;
+    margin-bottom: 5px;
+
+}
+
+main {
+    float: left;
+    padding-top: 32px;
+    padding-left: 31px;
+}
+
+main article {
+    width: 485px;
+    margin-top: 28px;
+    font-weight: 300;
+    color: #484c4d;
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.2);
+    height: 360px;
+}
+
+main article .desc {
+    padding: 10px;
+    border-bottom: 1px solid #9ea4a5;
+    
+}
+
+main article .desc h3 {
+    color: #484c4d;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 13px;
+}
+
+main article .desc p {
+    font-size: 14px;
+    height: 43px;
+    overflow: hidden;
+    color: #878c8d;
+}
+
+main article .extra-inf {
+    opacity: 0.8;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgba(135, 140, 141, 0.8);
+    padding: 10px;
+}
+
+main article .extra-inf .viewed {
+    margin-left: 345px;
+}
+
+main article .extra-inf .viewed i {
+    margin-right: 4px;
+}
+
+.asides {
+    width: 235px;
+    float: left;
+    margin-left: 20px;
+}
+
+aside {
+    width: 235px;
+    margin-top: 40px;
+}
+
+aside .title {
+    margin-bottom: 27px;
+}
+
+aside .gallery, .video {
+    width: 235px;
+    height: 215px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.aside-text {
+    margin: 12px;
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #484c4d;
+    overflow: hidden;
+}
+
+.video-mark {
+    position: absolute;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 85px;
+}
+
+footer {
+    height: 145px;
+    width: 100%;
+    margin-top: 40px;
+    border-top: 4px solid #f1592a;
+}
+
+.lower-menu {
+    display: flex;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 18px;
+    float: left;
+}
+
+.lower-menu li {
+    margin-left: 10px;
+}
+
+.lower-menu li:first-child {
+    margin-left: 0;
+}
+
+.lower-menu li a {
+    color: #898989;
+    text-decoration: none;
+}
+
+.socials {
+    display: flex;
+    float: left;
+    margin-left: 205px;
+    margin-top: 15px;
+}
+
+.socials li {
+    width: 20px;
+    height: 20px;
+    opacity: 0.4;
+    border-radius: 4px;
+    background-color: #484c4d;
+    text-align: center;
+    margin-right: 2px;
+}
+
+.socials li a {
+    border-radius: 4px;
+    font-size: 10px;
+    color: #fff;
+    padding: 5px;
+}
+
+.socials li:hover {
+    opacity: 1;
+}
+
+.socials li.vk:hover {
+    background: #4c75a3;
+}
+
+.socials li.youtube:hover {
+    background: #c4302b;
+}
+
+.socials li.google:hover {
+    background: #DB4437;
+}
+
+.socials li.facebook:hover {
+    background: #3B5998;
+}
+
+.socials li.twitter:hover {
+    background: #00aced;
+}
+
