@@ -103,19 +103,13 @@ header {
 .slider-switcher {
     position: absolute;
     top: 517px;
-    left: 440px;
+    left: 400px;
 }
-
 
 .slider-switcher div {
     float: left;
     cursor: pointer;
 }
-
-/* .slider-switcher div:hover {
-    color: #fff;
-    background: linear-gradient(to top, #dd492a, #e54b2b);
-} */
 
 .angle {
     width: 36px;
@@ -141,13 +135,14 @@ header {
     width: 92px;
     height: 92px;
     text-align: center;
-    border-radius: 20%;
-    background: rgb(78, 78, 78);
+    background: url("../img/days.png");
     border-left: 2px dashed #373737;
+    box-sizing: content-box;
 }
 
 .dates .day:hover {
-    background: linear-gradient(to top, #dd492a, #e54b2b);
+    background: url("../img/days-hover.png");
+    box-sizing: content-box;
 }
 
 .dates .day:hover .weekday, .daynumber, .month {
