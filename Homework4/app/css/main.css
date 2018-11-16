@@ -1,0 +1,72 @@
+.main-header {
+  background: url("../img/header-bg.svg") no-repeat 78%, #fff;
+  height: 100vh;
+  width: 100%;
+}
+
+.main-header nav {
+  width: 100%;
+  padding: 20px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-header nav .main-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  font-size: 16px;
+  right: 0;
+  position: absolute;
+  margin-right: 200px;
+  margin-top: 10px;
+}
+
+.main-header nav .main-menu li {
+  margin-left: 30px;
+}
+
+.main-header nav .main-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-header .app-desc {
+  margin-left: 210px;
+  margin-top: 170px;
+  color: #fff;
+  float: left;
+}
+
+.main-header .app-desc h1 {
+  font-size: 60px;
+  font-weight: 900;
+  width: 350px;
+}
+
+.main-header .app-desc p {
+  font-size: 20px;
+  margin-top: 37px;
+}
+
+.main-header .app-desc button {
+  width: 200px;
+  height: 40px;
+  border-radius: 25px;
+  background: #fff;
+  border: 0;
+  color: #d90647;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 100px;
+}
+
+.main-header .iPhone {
+  float: left;
+  height: 630px;
+  width: 370px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
