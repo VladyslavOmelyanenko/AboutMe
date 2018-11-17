@@ -1,3 +1,13 @@
+.title {
+  font-size: 45px;
+  color: #363636;
+  font-weight: 900;
+}
+
+.title span {
+  color: #d90647;
+}
+
 .main-header {
   background: url("../img/header-bg.svg") no-repeat 78%, #fff;
   height: 100vh;
@@ -69,4 +79,72 @@
   width: 370px;
   margin-left: 200px;
   margin-top: 100px;
+}
+
+.features {
+  padding-bottom: 100px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.features .easy-mes, .features .in-touch {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 35px;
+}
+
+.features .easy-mes p, .features .in-touch p {
+  margin-top: 25px;
+  width: 460px;
+  color: #808080;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.features .easy-mes {
+  margin-left: 180px;
+}
+
+.features .easy-mes .messages {
+  height: 450px;
+  width: auto;
+  z-index: 1;
+}
+
+.features .easy-mes .conversation {
+  height: 475px;
+  width: auto;
+  margin-top: 40px;
+  margin-left: -150px;
+  z-index: 2;
+}
+
+.features .easy-mes .ft-text {
+  margin-top: 160px;
+  margin-left: 100px;
+}
+
+.features .in-touch {
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.features .in-touch .contacts {
+  z-index: 2;
+  height: 450px;
+  width: auto;
+  margin-right: -110px;
+  margin-top: 60px;
+}
+
+.features .in-touch .groups {
+  z-index: 1;
+  height: 390px;
+  width: auto;
+}
+
+.features .in-touch .ft-text {
+  margin-top: 160px;
+  margin-right: 20px;
 }
