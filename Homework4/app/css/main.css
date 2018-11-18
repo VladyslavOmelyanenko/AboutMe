@@ -389,3 +389,34 @@
   height: 60px;
   margin-top: 20px;
 }
+
+.main-footer {
+  padding: 30px 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #e0e0e0;
+}
+
+.main-footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+}
+
+.main-footer ul li {
+  margin-right: 30px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.main-footer ul li a {
+  color: #363636;
+  text-decoration: none;
+}
+
+.main-footer select {
+  margin-left: 450px;
+  width: 180px;
+}
