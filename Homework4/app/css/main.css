@@ -1,6 +1,6 @@
 .title {
-  font-size: 45px;
   color: #363636;
+  font-size: 45px;
   font-weight: 900;
 }
 
@@ -15,23 +15,23 @@
 }
 
 .main-header nav {
-  width: 100%;
-  padding: 20px 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 20px 100px;
+  width: 100%;
 }
 
 .main-header nav .main-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-transform: uppercase;
   font-size: 16px;
-  right: 0;
-  position: absolute;
   margin-right: 200px;
   margin-top: 10px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
 }
 
 .main-header nav .main-menu li {
@@ -44,10 +44,10 @@
 }
 
 .main-header .app-desc {
-  margin-left: 210px;
-  margin-top: 170px;
   color: #fff;
   float: left;
+  margin-left: 210px;
+  margin-top: 170px;
 }
 
 .main-header .app-desc h1 {
@@ -62,44 +62,44 @@
 }
 
 .main-header .app-desc button {
-  width: 200px;
-  height: 40px;
-  border-radius: 25px;
   background: #fff;
+  border-radius: 25px;
   border: 0;
   color: #d90647;
   cursor: pointer;
   font-size: 15px;
+  height: 40px;
   margin-top: 100px;
+  width: 200px;
 }
 
 .main-header .iPhone {
   float: left;
   height: 630px;
-  width: 370px;
   margin-left: 200px;
   margin-top: 100px;
+  width: 370px;
 }
 
 .features {
-  padding-bottom: 100px;
   border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 100px;
 }
 
 .features .easy-mes, .features .in-touch {
-  width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 35px;
+  width: 1000px;
 }
 
 .features .easy-mes p, .features .in-touch p {
-  margin-top: 25px;
-  width: 460px;
   color: #808080;
   font-size: 16px;
   line-height: 1.5;
+  margin-top: 25px;
+  width: 460px;
 }
 
 .features .easy-mes {
@@ -114,15 +114,15 @@
 
 .features .easy-mes .conversation {
   height: 475px;
-  width: auto;
-  margin-top: 40px;
   margin-left: -150px;
+  margin-top: 40px;
+  width: auto;
   z-index: 2;
 }
 
 .features .easy-mes .ft-text {
-  margin-top: 160px;
   margin-left: 100px;
+  margin-top: 160px;
 }
 
 .features .in-touch {
@@ -131,27 +131,27 @@
 }
 
 .features .in-touch .contacts {
-  z-index: 2;
   height: 450px;
-  width: auto;
   margin-right: -110px;
   margin-top: 60px;
+  width: auto;
+  z-index: 2;
 }
 
 .features .in-touch .groups {
-  z-index: 1;
   height: 390px;
   width: auto;
+  z-index: 1;
 }
 
 .features .in-touch .ft-text {
-  margin-top: 160px;
   margin-right: 20px;
+  margin-top: 160px;
 }
 
 .people-say {
-  padding-top: 60px;
   padding-bottom: 100px;
+  padding-top: 60px;
   text-align: center;
 }
 
@@ -159,72 +159,72 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 60px;
   margin-left: 250px;
+  margin-top: 60px;
 }
 
 .people-say .comments .comment .comment-text {
-  width: 290px;
-  height: 130px;
-  padding: 15px;
-  text-align: left;
   border: 1px solid #eee;
+  color: #808080;
   font-size: 14px;
   font-style: italic;
-  color: #808080;
+  height: 130px;
   line-height: 1.5;
+  padding: 15px;
+  text-align: left;
+  width: 290px;
 }
 
 .people-say .comments .comment .comment-text span {
-  display: block;
   color: #d90647;
+  display: block;
   font-style: normal;
   letter-spacing: 1.1px;
 }
 
 .people-say .comments .comment .triangle {
-  width: 0;
-  height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid #eee;
+  height: 0;
   margin-left: 20px;
+  width: 0;
 }
 
 .people-say .comments .comment .author {
-  margin-left: 5px;
-  margin-top: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 5px;
+  margin-top: 15px;
 }
 
 .people-say .comments .comment .author img {
+  border-radius: 50%;
   height: 50px;
   width: 50px;
-  border-radius: 50%;
 }
 
 .people-say .comments .comment .author .author-name {
   color: #363636;
   font-size: 16px;
   letter-spacing: 1.08;
+  margin-bottom: 5px;
   margin-left: 20px;
   margin-top: 7px;
-  margin-bottom: 5px;
   text-align: left;
 }
 
 .people-say .comments .comment .author .author-profession {
   color: #667386;
   font-size: 14px;
-  text-align: left;
   margin-left: 20px;
+  text-align: left;
 }
 
 .people-say .comments .comment1 {
-  margin-top: 25px;
   margin-right: 20px;
+  margin-top: 25px;
 }
 
 .people-say .comments .comment2 {
@@ -236,14 +236,14 @@
 }
 
 .actions {
-  height: 500px;
-  width: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(#eb402c), to(#d90647));
   background: linear-gradient(to top, #eb402c, #d90647);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 500px;
   overflow-x: visibile;
+  width: 100%;
 }
 
 .actions .start-conv, .actions .free-call {
@@ -260,11 +260,11 @@
 }
 
 .actions .action {
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 300px;
-  color: #fff;
 }
 
 .actions .action h3 {
@@ -275,25 +275,25 @@
 }
 
 .actions .action p {
+  font-size: 14px;
   letter-spacing: 0.96px;
   line-height: 28px;
-  opacity: 0.6;
-  font-size: 14px;
   margin-top: 10px;
+  opacity: 0.6;
 }
 
 .actions .action object, .actions .action .ic_phone {
-  width: 50px;
-  height: 50px;
-  stroke: #fff;
   color-fill: #fff;
   fill: #fff;
+  height: 50px;
   margin-top: 50px;
+  stroke: #fff;
+  width: 50px;
 }
 
 .actions .action .left-icons {
-  margin-right: -50px;
   margin-left: 20px;
+  margin-right: -50px;
 }
 
 .actions .action .right-icons {
@@ -302,100 +302,100 @@
 }
 
 .actions .iphone-video {
-  margin: 0 auto;
   height: 700px;
-  width: auto;
-  margin-top: -100px;
-  z-index: 1;
   margin-left: 80px;
+  margin-top: -100px;
+  margin: 0 auto;
+  width: auto;
+  z-index: 1;
 }
 
 .actions .dark-bg {
-  position: relative;
-  opacity: 0.6;
-  z-index: 2;
-  margin-top: -20px;
-  right: 36.4%;
   height: 493px;
+  margin-top: -20px;
+  opacity: 0.6;
+  position: relative;
+  right: 36.4%;
   width: auto;
+  z-index: 2;
 }
 
 .actions .play-circle {
-  z-index: 3;
-  position: relative;
+  cursor: pointer;
   height: 50px;
-  width: 50px;
+  position: relative;
   right: 47.5%;
   top: 37%;
-  cursor: pointer;
+  width: 50px;
+  z-index: 3;
 }
 
 .subscribe {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 100px;
   padding-top: 120px;
   text-align: center;
-  padding-bottom: 100px;
-  border-bottom: 1px solid #e0e0e0;
 }
 
 .subscribe .email {
-  border-radius: 25px;
-  width: 525px;
-  height: 40px;
   background-color: #f8f8f8;
+  border-radius: 25px;
   border: 0;
-  padding-left: 25px;
-  font-size: 18px;
   color: #808080;
+  font-size: 18px;
+  height: 40px;
+  padding-left: 25px;
+  width: 525px;
   z-index: 1;
 }
 
 .subscribe .sub-btn {
-  width: 160px;
-  height: 40px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#eb402c), to(#d90647));
+  background-image: linear-gradient(to top, #eb402c, #d90647);
   border-radius: 25px;
   border: 0;
   -webkit-box-shadow: 0px 10px 30px 0 rgba(223, 27, 61, 0.3);
   box-shadow: 0px 10px 30px 0 rgba(223, 27, 61, 0.3);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#eb402c), to(#d90647));
-  background-image: linear-gradient(to top, #eb402c, #d90647);
-  font-size: 18px;
   color: #fff;
+  font-size: 18px;
   font-weight: 900;
-  z-index: 2;
+  height: 40px;
   margin-left: -160px;
+  width: 160px;
+  z-index: 2;
 }
 
 .text {
-  font-size: 16px;
-  margin-top: 40px;
   color: #808080;
+  font-size: 16px;
   margin-bottom: 60px;
+  margin-top: 40px;
 }
 
 .download {
-  text-align: center;
-  padding-top: 80px;
   padding-bottom: 120px;
+  padding-top: 80px;
+  text-align: center;
 }
 
 .download .app-icon {
-  width: 160px;
   height: 160px;
   margin-bottom: 30px;
+  width: 160px;
 }
 
 .download .app-store {
-  width: 180px;
   height: 60px;
   margin-top: 20px;
+  width: 180px;
 }
 
 .main-footer {
-  padding: 30px 180px;
+  border-top: 1px solid #e0e0e0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-top: 1px solid #e0e0e0;
+  padding: 30px 180px;
 }
 
 .main-footer ul {
@@ -406,9 +406,9 @@
 }
 
 .main-footer ul li {
+  font-size: 15px;
   margin-right: 30px;
   text-transform: uppercase;
-  font-size: 15px;
 }
 
 .main-footer ul li a {
