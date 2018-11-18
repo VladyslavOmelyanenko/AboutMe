@@ -234,3 +234,98 @@
 .people-say .comments .comment3 {
   margin-top: 25px;
 }
+
+.actions {
+  height: 500px;
+  width: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#eb402c), to(#d90647));
+  background: linear-gradient(to top, #eb402c, #d90647);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: visibile;
+}
+
+.actions .start-conv, .actions .free-call {
+  margin-left: 150px;
+  text-align: right;
+}
+
+.actions .picture, .actions .video {
+  margin-left: -430px;
+}
+
+.actions .start-conv, .actions .picture {
+  margin-top: 50px;
+}
+
+.actions .action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  color: #fff;
+}
+
+.actions .action h3 {
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 1.4px;
+  margin-top: 50px;
+}
+
+.actions .action p {
+  letter-spacing: 0.96px;
+  line-height: 28px;
+  opacity: 0.6;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.actions .action object, .actions .action .ic_phone {
+  width: 50px;
+  height: 50px;
+  stroke: #fff;
+  color-fill: #fff;
+  fill: #fff;
+  margin-top: 50px;
+}
+
+.actions .action .left-icons {
+  margin-right: -50px;
+  margin-left: 20px;
+}
+
+.actions .action .right-icons {
+  margin-left: -50px;
+  margin-right: 20px;
+}
+
+.actions .iphone-video {
+  margin: 0 auto;
+  height: 700px;
+  width: auto;
+  margin-top: -100px;
+  z-index: 1;
+  margin-left: 80px;
+}
+
+.actions .dark-bg {
+  position: relative;
+  opacity: 0.6;
+  z-index: 2;
+  margin-top: -20px;
+  right: 36.4%;
+  height: 493px;
+  width: auto;
+}
+
+.actions .play-circle {
+  z-index: 3;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  right: 47.5%;
+  top: 37%;
+  cursor: pointer;
+}
