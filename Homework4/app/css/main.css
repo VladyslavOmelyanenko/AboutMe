@@ -44,24 +44,30 @@
 }
 
 .main-header .app-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-header .app-desc div {
   color: #fff;
   float: left;
   margin-left: 210px;
   margin-top: 170px;
 }
 
-.main-header .app-desc h1 {
+.main-header .app-desc div h1 {
   font-size: 60px;
   font-weight: 900;
   width: 350px;
 }
 
-.main-header .app-desc p {
+.main-header .app-desc div p {
   font-size: 20px;
   margin-top: 37px;
 }
 
-.main-header .app-desc button {
+.main-header .app-desc div button {
   background: #fff;
   border-radius: 25px;
   border: 0;
@@ -73,7 +79,7 @@
   width: 200px;
 }
 
-.main-header .iPhone {
+.main-header .app-desc .iPhone {
   float: left;
   height: 630px;
   margin-left: 200px;
@@ -419,4 +425,179 @@
 .main-footer select {
   margin-left: 450px;
   width: 180px;
+}
+
+@media (max-width: 600px) {
+  .main-header {
+    background: -webkit-gradient(linear, left top, left bottom, from(#d90647), color-stop(75%, #eb402c));
+    background: linear-gradient(#d90647, #eb402c 75%);
+    height: 150vh;
+  }
+  .main-header nav {
+    padding: 10% 10%;
+  }
+  .main-header nav .main-menu {
+    display: none;
+  }
+  .main-header .app-desc {
+    display: block;
+  }
+  .main-header .app-desc div {
+    margin: 0;
+  }
+  .main-header .app-desc div h1 {
+    font-size: 50px;
+    width: 80%;
+    margin-left: 12%;
+  }
+  .main-header .app-desc div p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .main-header .app-desc div button {
+    margin-top: 80px;
+    margin-left: 24%;
+  }
+  .main-header .app-desc .iPhone {
+    margin: 20px 40px;
+    width: 300px;
+    height: auto;
+  }
+  .features .easy-mes, .features .in-touch {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    margin-top: 40px;
+  }
+  .features .easy-mes p, .features .in-touch p {
+    width: 80%;
+    margin-left: 30px;
+  }
+  .features .easy-mes .ft-text, .features .in-touch .ft-text {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+    margin: 0;
+    text-align: center;
+  }
+  .features .easy-mes .messages {
+    height: 400px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .features .easy-mes .conversation {
+    height: 410px;
+    width: 300px;
+    margin-top: -350px;
+    margin-left: 40px;
+  }
+  .features .in-touch {
+    margin-top: 0;
+  }
+  .features .in-touch .contacts {
+    height: 410px;
+    width: 250px;
+    margin-left: 40px;
+  }
+  .features .in-touch .groups {
+    height: 350px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: -450px;
+  }
+  .people-say {
+    padding-bottom: 0;
+  }
+  .people-say .comments {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-top: 10px;
+  }
+  .people-say .comments .comment {
+    margin-bottom: 40px;
+  }
+  .actions {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .actions .start-conv, .actions .free-call {
+    margin-left: 45px;
+    text-align: left;
+  }
+  .actions .start-conv .left-icons, .actions .free-call .left-icons {
+    margin-right: 0;
+  }
+  .actions .free-call {
+    margin-bottom: 40px;
+  }
+  .actions .iphone-video {
+    height: 600px;
+  }
+  .actions .dark-bg {
+    right: 0;
+    margin-left: 63px;
+    margin-top: -532px;
+    height: 424px;
+    width: 237px;
+  }
+  .actions .play-circle {
+    left: 42%;
+    top: -230px;
+  }
+  .actions .picture, .actions .video {
+    margin: 0;
+    margin-left: 50px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+  .actions .video {
+    margin-bottom: 40px;
+  }
+  .subscribe {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .subscribe .email {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+  }
+  .subscribe .sub-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .download {
+    padding: 50px 10px;
+  }
+  .download .title {
+    font-size: 30px;
+  }
+  .download .text {
+    font-size: 15px;
+  }
+  .download .app-store {
+    margin-top: 10px;
+  }
+  .main-footer {
+    padding: 30px 40px;
+  }
+  .main-footer ul {
+    display: none;
+  }
+  .main-footer select {
+    margin: 0;
+  }
 }
