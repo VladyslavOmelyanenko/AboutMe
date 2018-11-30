@@ -16,4 +16,8 @@ var n = 3;
 
 test('test_compare_operators', () => {
     expect(n++ * 8 - n > 28 ).toEqual(true);
-    });
+});
+
+test('test_equality_comparison_algorithm', () => {
+    expect([123] == "123" && "0" == false).toEqual(true);
+});
